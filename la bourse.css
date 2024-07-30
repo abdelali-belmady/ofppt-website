@@ -1,0 +1,27 @@
+/* .col {
+    background-color: whitesmoke;
+    color: black;
+    height: 100%;
+    font-size: 18px;
+} */
+
+/* .row {
+    height: 60%;
+} */
+
+.col h3 {
+    text-align: center;
+}
+
+.ppcc {
+    font-size: 17px;
+}
+
+.card-text {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.card {
+    height: 26rem;
+}

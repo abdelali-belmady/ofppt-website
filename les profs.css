@@ -1,0 +1,75 @@
+.card1 {
+    margin: 0 auto;
+    width: 350px;
+    background-color: rgb(204, 204, 204);
+    height: 370px;
+    border-radius: 10px;
+    transition-duration: .3s;
+    color: black;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    background-color: khaki;
+
+}
+
+.img {
+    text-align: center;
+}
+
+.img2 {
+    border-radius: 80px;
+}
+
+
+.nom {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.poste {
+    text-align: center;
+}
+
+.prf {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    background: linear-gradient(90deg, blue, grey);
+    padding: 20px;
+    position: relative;
+    bottom: 18px;
+}
+
+.poste {
+    font-size: 15px;
+}
+
+.pp {
+    font-size: small;
+}
+
+.ddss {
+    width: 100%;
+    text-align: center;
+}
+
+.smallp {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.green {
+    background-color: whitesmoke;
+    color: black;
+}
+
+body {
+    background: linear-gradient(90deg, blue, grey);
+}

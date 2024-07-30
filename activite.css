@@ -1,0 +1,28 @@
+.card {
+    height: 50rem;
+}
+
+.tt {
+    color: darkmagenta;
+    text-align: left;
+
+
+}
+
+.card-text {
+    text-align: left;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.ppss {
+    font-size: 14px;
+}
+
+.imag11 {
+    width: 610px;
+    height: 787px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}

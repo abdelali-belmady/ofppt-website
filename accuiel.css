@@ -1,0 +1,275 @@
+/* <!--========================================================================================================================================-->>
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    font-weight: 400;
+    color: black;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+@media screen and (min-width:991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 3px;
+        background-color: green;
+        visibility: hidden;
+        transition: 0.6s ease-in-out;
+    }
+
+    .dropbtn {
+        background-color: whitesmoke;
+    }
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backNavbar {
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+.abdelali {
+    color: green;
+}
+
+/*  */
+.dropbtn {
+    color: black;
+    border: none;
+}
+
+.loc {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+
+.green {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.loc a {
+    color: black;
+}
+
+.padii {
+    padding-top: 75px;
+    /* margin-right: 120px; */
+}
+
+.dropdown-content {
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999999;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+@media screen and (min-width:990px) {
+    .dropdown-content {
+        display: none;
+
+    }
+}
+
+
+
+
+
+
+.nav-item:hover .dropdown-content {
+    opacity: 1;
+}
+
+@media screen and (max-width:990px) {
+    .dropdown-content {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        /* background-color: whitesmoke; */
+        z-index: 999999;
+        transition: all 0.6s ease;
+        opacity: 1;
+    }
+
+    .nav-item:nth-child(2):hover .dropdown-content,
+    .nav-item:nth-child(3):hover .dropdown-content {
+        height: 215.97px;
+        /* height: fit-content; */
+    }
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.6s ease;
+}
+
+.dropdown-content a:hover {
+    color: green;
+}
+
+.footercolor {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width:990px) {
+
+    .dropbtn {
+        background-color: white;
+    }
+}
+
+
+.dropdown-content {
+    background-color: whitesmoke;
+}
+
+/* <!--========================================================================================================================================-->>
+ */
+.cartebig {
+    background: linear-gradient(90deg, blue, grey);
+    color: whitesmoke;
+    position: relative;
+    bottom: 18px;
+}
+
+.div1 {
+    width: 100%;
+    /* position: relative;
+    right: 60px; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aa {
+    color: black;
+}
+
+.col div {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.hovercol {
+    transition-duration: 0.4s;
+}
+
+.hovercol:hover {
+    background-color: rgb(243, 243, 243);
+    transform: scale(1.03);
+    border-radius: 5px;
+    /* color: whitesmoke; */
+}
+
+body {
+    background: linear-gradient(90deg, blue, grey);
+
+}
+
+.card {
+    height: 20rem;
+}
+
+.card-title {
+    color: orangered;
+    font-weight: bold;
+}
+
+
+footer {
+    font-size: 16px;
+}
+
+.gg {
+    font-size: 15px;
+}
+
+/* .hii {
+    font-weight: bold;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================================================================================================ */
+
+
+/* ============================================================================================================================================================ */
